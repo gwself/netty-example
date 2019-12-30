@@ -6,6 +6,9 @@ import io.netty.handler.timeout.IdleStateHandler;
 
 import java.util.concurrent.TimeUnit;
 
+/**
+ * @author gaoyunfeng
+ */
 public class IMIdleStateHandler extends IdleStateHandler {
 
     private static final int READER_IDLE_TIME = 15;
